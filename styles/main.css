@@ -1,0 +1,77 @@
+@import url('http://fonts.cdnfonts.com/css/recoleta');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,100;0,400;1,200&display=swap');
+
+
+:root{
+    --blue: #0247fe;
+    --purple: #6637e9; 
+    --grade: linear-gradient(41.58deg,#5bc0d2 -2.97%,#437cf2 25.61%,#666cfd 48.53%,#a282d2 74.94%,#fcb3c1 99.16%);;
+    --ash: #f8f8fe;
+    --grade-header: linear-gradient(to bottom left, #8400ff, #0746ce);
+}
+body{
+    font-family: 'Poppins';
+}
+p{
+    font-family: 'recoleta';
+}
+.blue{
+    background-color: var(--blue);
+}
+.purple{
+    background-color: var(--purple);
+}
+.grade{
+    background: var(--grade);
+}
+.ash{
+    background-color: var(--ash);
+}
+.grade-header{
+    background: var(--grade-header);
+}
+.mine{
+    position: absolute;
+    top: -60px;
+    left: 30%;
+}
+.rounded{
+    border: 5px solid white;
+    border-radius: 20px;
+}
+.rounded-border{
+    border-radius: 30px;
+}
+.white{
+    opacity: 0.8777;
+}
+.rounded-wt{
+    border-radius: 20px;
+}
+.rounded-wh{
+    border-radius: 30px;
+}
+.div11th{
+    position: relative;
+    height: auto;
+    bottom: -30%;
+    right: 0;
+    z-index: 1;
+}
+.slides{
+    position: absolute;
+    width: 40%;
+    top: -80px;
+    right: 30%;
+    z-index: 1;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    padding: 100px 0 0 0;
+    border: 2px solid white;
+}
+.bor-2{
+    border-radius: 20px;
+    border: 8px solid white;
+}
